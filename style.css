@@ -1,0 +1,453 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/******************************************************
+                    PHOTO DE PRESENTATION
+*******************************************************/
+.container {
+    width: 100%;
+}
+
+.fond {
+    display: flex;
+    background-image: url("images/femme-bureau.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.texte {
+    color: white;
+    text-align: left;
+
+}
+
+.texte2 {
+    text-align: left;
+    color: white;
+}
+
+.title {
+    color: white;
+    font-weight: bolder;
+
+}
+
+
+.photo-presentation {
+
+    background-image: url("images/femme-bureau.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*************************************************************************
+                         BAR DE NAVIGATION
+*************************************************************************/
+nav {
+    
+width: 100%;
+height: 30px;
+
+}
+
+.logo {
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    color: white;
+    background: black;
+    height: 96px;
+}
+
+/***ul*/
+.items {
+    display: flex;
+    width:100% ;
+
+
+}
+
+/***li*/
+.list-items {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+text-align: center;
+align-items: center;
+}
+@media screen and (min-width: 200px) and (max-width:888px) {
+    .items{
+        display: flex;
+        flex-direction: column;
+}
+}
+
+/*************************************************************************
+                                PRESENTATION
+*************************************************************************/
+.presentation {
+    background-color: rgba(128, 128, 128, 0.192);
+    height: 550px;
+
+}
+
+.title-presentation {
+    text-align: center;
+    opacity: 0.1;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.719);
+    position: relative;
+    top: 120px;
+}
+
+.sub-title-presentation {
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+    color: rgb(24, 22, 22);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+hr {
+    width: 100px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+/******************************************************************************
+                                    PORTFOLIO
+********************************************************************************/
+
+
+.title-travaux {
+    text-align: center;
+    position: relative;
+    top: 160px;
+    font-size: 30px;
+    color: rgb(24, 22, 22);
+
+}
+
+.sub-title-travaux {
+    text-align: center;
+    opacity: 0.20;
+    font-size: 100px;
+    color: rgba(128, 128, 128, 0.719);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+
+.list-travaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.items-travaux {
+
+list-style-type: none;
+margin: 5px;
+font-size: 20px;
+border: 1px solid gray;
+border-bottom: 20px;
+background-color: rgb(219, 209, 209);
+padding: 5px;
+
+}
+
+.items-travaux:hover {
+    color: white;
+    background: black;
+    padding: 5px
+}
+
+.image,
+.image2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ordi {
+    margin: 20Px;
+    width: 200px;
+    height: 200px;
+
+}
+
+/**********************************************************************************
+                        SECTION SERVICE
+**********************************************************************************/
+.container-service {
+    background-color: rgba(128, 128, 128, 0.192);
+    width: 100%;
+}
+
+.info {
+    font-size: 15px;
+
+
+}
+
+.title-service {
+    text-align: center;
+    position: relative;
+    top: 160px;
+    color: rgb(24, 22, 22);
+    opacity: 0.1;
+    font-size: 90px;
+    text-transform: uppercase;
+
+}
+
+.sub-title-service {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.list-icon,
+.list-icon2 {
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.carre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(248, 248, 255, 0.911);
+
+}
+
+
+.icon {
+
+    width: 60px;
+    height: 60px;
+
+}
+
+/****************************************************************************************
+                        SECTION A PROPOS
+****************************************************************************************/
+.container-informations {
+    display: flex;
+align-items: flex-start;
+
+}
+
+.information {
+
+    
+    
+
+
+}
+
+.bureau {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.alignement-droite{
+    width: 100%;
+}
+
+@media screen and (min-width:200px)and (max-width:888px) {
+    .container-informations {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    } 
+    .bureau {
+        width: 100%;
+    }
+}
+/** a propos*/
+.title-information {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(24, 22, 22);
+    opacity: 0.1;
+
+
+}
+
+/*mes competance*/
+.sub-title-information {
+    text-align: center;
+    position: relative;
+    top: 140px;
+    font-size: 20px;
+    color: rgb(141, 134, 134);
+    font-weight: lighter;
+
+    text-transform: uppercase;
+
+}
+
+.liste-information {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+
+.langage-informatique {
+    padding: 0;
+    padding-right: 60px;
+}
+
+.rectangle {
+
+    width: 100%;
+    height: 35px;
+    margin: 20px;
+    
+}
+
+.liste-langage {
+
+    list-style-type: none;
+
+}
+
+
+.langage {
+
+    border-width: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+
+/************************************************************************************************
+                            SECTION CONTACT
+************************************************************************************************/
+
+.container-contact {
+    background-color: rgba(128, 128, 128, 0.192);
+}
+
+.titl-contact {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 60px;
+    color: rgb(24, 22, 22);
+    opacity: 0.1;
+    text-transform: uppercase;
+}
+
+.sub-titl-contact {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.formaulaire {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.text-formulaire {
+    margin: 10px;
+}
+
+.email-formulaire {
+    margin: 10px;
+}
+
+.message-formulaire alignement-droite{
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+}
+
+button:hover {
+    color: white;
+    background: black;
+    padding: 5px
+}
+
+/************************************************************************************************
+                        SECTION FOOTER
+************************************************************************************************/
+
+footer {
+    background: black;
+}
+
+.reseaux {
+    text-align: center;
+
+
+}
+
+.nom {
+    color: white;
+    font-size: 15px;
+}
+
+
